@@ -72,10 +72,12 @@ packages:
   flutter_markdown:
     dependency: "direct main"
     description:
-      name: flutter_markdown
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.2.0"
+      path: "."
+      ref: master
+      resolved-ref: cbe49c36ffee83dbf9ba8603df85692a0f8fe49a
+      url: "https://github.com/flutter/flutter_markdown.git"
+    source: git
+    version: "0.3.4"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -213,4 +215,5 @@ packages:
     source: hosted
     version: "3.5.0"
 sdks:
-  dart: ">=2.4.0 <3.0.0"
+  dart: ">=2.5.0 <3.0.0"
+  flutter: ">=1.10.7 <2.0.0"
