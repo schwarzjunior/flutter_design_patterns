@@ -75,6 +75,9 @@ class _DesignPatternDetailsState extends State<DesignPatternDetails> with Ticker
 
   void onBottomNavigationBarItemTap(int index) {
     setState(() {
+      _appBarElevation = 0.0;
+      _appBarTitleOpacity = 0.0;
+      _bottomNavigationBarElevation = 4.0;
       _tabController.index = index;
     });
   }
@@ -184,7 +187,7 @@ class _DesignPatternDetailsState extends State<DesignPatternDetails> with Ticker
                               FadeSlideTransition(
                                 controller: _fadeSlideAnimationController,
                                 slideAnimationTween: Tween<Offset>(
-                                  begin: Offset(0.0, 0.05),
+                                  begin: Offset(0.0, 0.01),
                                   end: Offset(0.0, 0.0),
                                 ),
                                 begin: _contentAnimationIntervalStart,
