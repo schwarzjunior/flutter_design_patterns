@@ -16,6 +16,7 @@ dependencies:
       url: https://github.com/flutter/flutter_markdown.git
       ref: master
   xml: ^3.5.0
+  faker: ^1.1.1
 
 dev_dependencies:
   flutter_test:
@@ -28,9 +29,10 @@ flutter:
     - assets/
     - assets/data/
     - assets/markdown/
-    - assets/images/singleton/
     - assets/images/adapter/
     - assets/images/composite/
+    - assets/images/singleton/
+    - assets/images/strategy/
     - assets/images/template_method/
 
   fonts:
