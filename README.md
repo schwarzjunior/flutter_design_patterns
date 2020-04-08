@@ -1,16 +1,27 @@
-# flutter_design_patterns
+# Flutter Design Patterns
 
-A new Flutter application.
+An open-source design patterns mobile application build with Dart and
+Flutter.
 
-## Getting Started
+[GitHub Project](https://github.com/MangirdasKazlauskas/flutter-design-patterns)
 
-This project is a starting point for a Flutter application.
+## Building
 
-A few resources to get you started if this is your first Flutter project:
+You can follow these instructions to build the app and install it onto
+your device.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Prerequisites
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+If you are new to Flutter, please first follow the
+[Flutter Setup](https://flutter.dev/setup/) guide.
+
+### Building and installing the Flutter Design Patterns app
+
+```
+git clone https://github.com/MangirdasKazlauskas/flutter-design-patterns.git
+cd flutter-design-patterns
+flutter run
+```
+
+The `flutter run` command both builds and installs the Flutter app to
+your device or emulator.
